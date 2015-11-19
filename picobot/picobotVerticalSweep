@@ -1,0 +1,28 @@
+
+0 x*** -> N 0 
+0 Nxxx -> W 1
+0 NxWx -> E 3
+0 NExx -> W 1
+
+1 N**x -> S 2
+1 x**S -> N 0
+
+2 ***x -> S 2
+2 xxWS -> E 3
+2 xExS -> w 1
+2 xxxS -> W 1
+
+3 NExx -> S 2
+3 xExS -> N 0
+3 Nxxx -> E 3
+3 xxxS -> E 3
+
+
+#0 x*** -> N 0 
+#0 Nxxx -> W 1
+
+#1 N**x -> S 2
+#1 x**S -> N 0
+
+#2 ***x -> S 2
+#2 xxxS -> E 1
